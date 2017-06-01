@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  ThenSingsMySoul
 //
 //  Created by Sasha on 2/14/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class UkrainianViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
