@@ -10,6 +10,8 @@ import UIKit
 
 class EnglishViewController: UITableViewController {
 
+    var song: [String: AnyObject]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
