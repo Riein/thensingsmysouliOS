@@ -9,7 +9,9 @@
 import UIKit
 
 class EnglishTableViewCell: UITableViewCell {
-
+    
+    //MARK: Variable
+    @IBOutlet weak var songName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
