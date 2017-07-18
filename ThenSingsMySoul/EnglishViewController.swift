@@ -41,5 +41,30 @@ class EnglishViewController: UITableViewController {
         
         songs += [song1, song2, song3]
     }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return songs.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //Table view cells are reused and should be dequeued using a cell identifier
+        let cellIdentifier = "EnglishTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? EnglishTableViewCell else {
+            fatalError("The dequeued cell is not an instance of EnglishTableViewCell")
+        }
+        
+        // Fetches the appropriate song for the data source layout
+        let song = songs[indexPath.row]
+        
+        //configure the cell...
+        cell.songName.text = song.text
+        
+        return cell
+    }
 }
 
