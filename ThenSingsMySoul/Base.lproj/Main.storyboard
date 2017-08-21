@@ -87,8 +87,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75S-fS-DiD">
-                                            <rect key="frame" x="8" y="12" width="42" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75S-fS-DiD">
+                                            <rect key="frame" x="8" y="0.0" width="359" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -97,6 +97,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="songLabel" destination="aYc-YM-QkU" id="dUi-6b-tTm"/>
                                     <outlet property="songName" destination="aYc-YM-QkU" id="qr4-sZ-cK4"/>
                                     <segue destination="nfD-Of-yUE" kind="presentation" id="wEJ-4Z-Lqn"/>
                                 </connections>
@@ -111,7 +112,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abF-Ig-no3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="897" y="262"/>
+            <point key="canvasLocation" x="896.79999999999995" y="261.31934032983509"/>
         </scene>
         <!--Song View Controller-->
         <scene sceneID="wqT-gh-old">
@@ -172,14 +173,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="AhG-Wf-p0D">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="AhG-Wf-p0D" customClass="RussianTableViewCell" customModule="ThenSingsMySoul" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AhG-Wf-p0D" id="4QW-DG-6fe">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxq-n5-XSc">
+                                            <rect key="frame" x="8" y="0.0" width="359" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="songLabel" destination="oxq-n5-XSc" id="WqD-NE-jNx"/>
                                     <segue destination="nfD-Of-yUE" kind="presentation" id="JAN-bO-uV3"/>
                                 </connections>
                             </tableViewCell>
@@ -193,10 +204,10 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDf-QY-Bd7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860" y="925"/>
+            <point key="canvasLocation" x="860" y="924.28785607196414"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wEJ-4Z-Lqn"/>
+        <segue reference="rzN-cl-3X2"/>
     </inferredMetricsTieBreakers>
 </document>

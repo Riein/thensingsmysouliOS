@@ -62,7 +62,7 @@ class UkrainianViewController: UITableViewController {
         let song = songs[indexPath.row]
         
         //configure the cell...
-        cell.songName.text = song.text
+        cell.songLabel.text = song.text
         
         return cell
     }

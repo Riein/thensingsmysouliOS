@@ -20,6 +20,7 @@
 		D9341B141EF9F6F4009466E8 /* EnglishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9341B131EF9F6F4009466E8 /* EnglishTableViewCell.swift */; };
 		D95BEBE51E540B6100D6DE5D /* RussianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95BEBE41E540B6100D6DE5D /* RussianViewController.swift */; };
 		D9B6CA111F380DB000F1A31E /* UkrainianTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6CA101F380DB000F1A31E /* UkrainianTableViewCell.swift */; };
+		D9B6CA131F4B445C00F1A31E /* RussianTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6CA121F4B445C00F1A31E /* RussianTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D9341B131EF9F6F4009466E8 /* EnglishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishTableViewCell.swift; sourceTree = "<group>"; };
 		D95BEBE41E540B6100D6DE5D /* RussianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianViewController.swift; sourceTree = "<group>"; };
 		D9B6CA101F380DB000F1A31E /* UkrainianTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UkrainianTableViewCell.swift; sourceTree = "<group>"; };
+		D9B6CA121F4B445C00F1A31E /* RussianTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				D9341B111EF4A09A009466E8 /* Song.swift */,
 				D9341B131EF9F6F4009466E8 /* EnglishTableViewCell.swift */,
 				D9B6CA101F380DB000F1A31E /* UkrainianTableViewCell.swift */,
+				D9B6CA121F4B445C00F1A31E /* RussianTableViewCell.swift */,
 				D90A43DA1E53FE7900D15B7B /* UkrainianViewController.swift */,
 				D95BEBE41E540B6100D6DE5D /* RussianViewController.swift */,
 				D916BFC31EF74C4B00F78CE6 /* SongViewController.swift */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9341B121EF4A09A009466E8 /* Song.swift in Sources */,
+				D9B6CA131F4B445C00F1A31E /* RussianTableViewCell.swift in Sources */,
 				D90A43DB1E53FE7900D15B7B /* UkrainianViewController.swift in Sources */,
 				D90A43D71E53FE7900D15B7B /* AppDelegate.swift in Sources */,
 				D916BFC41EF74C4B00F78CE6 /* SongViewController.swift in Sources */,

@@ -1,18 +1,17 @@
 //
-//  UkrainianTableViewCell.swift
+//  RussianTableViewCell.swift
 //  ThenSingsMySoul
 //
-//  Created by Sasha Demyanik on 8/6/17.
+//  Created by Sasha Demyanik on 8/21/17.
 //  Copyright © 2017 Novaci. All rights reserved.
 //
 
 import UIKit
 
-class UkrainianTableViewCell: UITableViewCell {
+class RussianTableViewCell: UITableViewCell {
 
-    //MARK: Variable
+    
     @IBOutlet weak var songLabel: UILabel!
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
